@@ -83,7 +83,8 @@ const MODEL_MAPPING = {
   'google-lightest': 'google/gemma-2-2b-it',
   'google-lighter': 'google/gemma-3n-e4b-it',
   'm2.7': 'minimaxai/minimax-m2.7',
-  'step-3.5-flash': 'stepfun-ai/step-3.5-flash'
+  'step-3.5-flash': 'stepfun-ai/step-3.5-flash',
+  'step-3.7-flash': 'stepfun-ai/step-3.7-flash'
 };
 
 const FALLBACK_MODELS = [
