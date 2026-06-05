@@ -13,7 +13,7 @@ Yes, it's legal. It's just HTTP requests routed through your own proxy. You stil
 
 ### Requirements
 
-Node.js 18+, a NVAPI/Nim API key, a deployment platform (though if you follow the guide below none of those should be a problem).
+Node.js 24+, a NVAPI/Nim API key, a deployment platform (though if you follow the guide below none of those should be a problem).
 
 ### Model Mapping
 
