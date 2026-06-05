@@ -62,6 +62,7 @@ if (ENABLE_THINKING_MODE) console.log('[CONFIG] Thinking mode: ENABLED');
 
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
+  'gpt-3.5-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
   'gpt-3.5': 'qwen/qwen3.5-397b-a17b',
   'gpt-4-turbo': 'moonshotai/kimi-k2.6',
