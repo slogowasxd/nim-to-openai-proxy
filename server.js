@@ -1,4 +1,4 @@
-f// server.js — Robust Hybrid OpenAI ↔ NIM Proxy
+// server.js — Robust Hybrid OpenAI ↔ NIM Proxy
 // Express 5 Compatible
 // Fixes: auth bypass, startup DDoS, silent stream failures, memory leaks, Express 5 deprecations
 
