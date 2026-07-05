@@ -499,7 +499,7 @@ app.post('/v1/chat/completions', async (req, res) => {
       res.status(error.response?.status || 500).json({
         error: {
           message: error.message,
-          type: 'invalid_request_error',
+         message: error.response?.data || error.message,
           code: error.response?.status || 500
         }
       });
