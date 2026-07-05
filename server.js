@@ -1,4 +1,4 @@
-// server.js — Robust Hybrid OpenAI ↔ NIM Proxy
+f// server.js — Robust Hybrid OpenAI ↔ NIM Proxy
 // Express 5 Compatible
 // Fixes: auth bypass, startup DDoS, silent stream failures, memory leaks, Express 5 deprecations
 
@@ -230,6 +230,11 @@ async function callWithFallback(baseRequest, models) {
 
   for (const model of models) {
     try {
+      
+      console.log("NIM_API_KEY exists:", !!NIM_API_KEY);
+console.log("Authorization header:", `Bearer ${NIM_API_KEY}`.slice(0, 20) + "...");
+console.log("Request body:", JSON.stringify(requestData, null, 2));
+      
       const res = await axios.post(
         `${NIM_API_BASE}/chat/completions`,
         { ...baseRequest, model },
